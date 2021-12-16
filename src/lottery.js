@@ -1,12 +1,12 @@
 import web3 from "./web3";
 
-const address = "0x53887a2615E3b9E186c131ba65f33020e6D57E59";
+const address = "0x5d9e27AdDE53bC4d4920Fb0b09778c5981338E59";
 const abi = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },
   { inputs: [], name: "enter", outputs: [], stateMutability: "payable", type: "function" },
   {
     inputs: [],
-    name: "getLastWinnder",
+    name: "getLastWinner",
     outputs: [{ internalType: "address", name: "", type: "address" }],
     stateMutability: "view",
     type: "function",
